@@ -1,21 +1,28 @@
 const COLORS = [
   'red',
+  'purple',
+  'magenta',
+  'navy',
   'blue',
+  'RoyalBlue',
+  'SkyBlue',
+  'cyan',
   'orange',
   'yellow',
   'green',
-  'purple',
-  'brown',
+  'SpringGreen',
+  'lime',
+  'maroon',
+  'white',
   'gray',
   'black',
-  'white',
-  'aqua',
 ];
 
 let currentColor = COLORS[0];
+let canvasSize = 15;
 
 function main() {
-  document.body.appendChild(makeCanvas(10));
+  document.body.appendChild(makeCanvas(canvasSize));
   document.body.appendChild(makePalette());
   document.body.appendChild(makeCurrentColorIndicator());
 }
@@ -79,7 +86,7 @@ function makeCurrentColorIndicator() {
   const colorIndicator = document.createElement('div');
   const text = document.createElement('span');
   text.classList.add('text');
-  text.appendChild(document.createTextNode('CURRENT COLOR =>'));
+  text.appendChild(document.createTextNode('Current Color =>'));
 
   const currentColorBox = document.createElement('div');
   currentColorBox.classList.add('currentColor', currentColor);

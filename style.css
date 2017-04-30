@@ -1,3 +1,6 @@
+h1 {
+  font: 50px cursive;
+}
 
 .canvas {
   border: 2px solid gray;
@@ -10,10 +13,10 @@
 }
 
 .square {
-  border: 2px solid gray;
+  border: 1px solid gray;
   float: left;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
 
 .red {
@@ -40,8 +43,8 @@
   background-color: purple;
 }
 
-.brown {
-  background-color: brown;
+.maroon {
+  background-color: maroon;
 }
 
 .gray {
@@ -56,14 +59,38 @@
   background-color: white;
 }
 
-.aqua {
-  background-color: aqua;
+.RoyalBlue {
+  background-color: RoyalBlue;
+}
+
+.magenta {
+  background-color: magenta;
+}
+
+.SkyBlue {
+  background-color: SkyBlue;
+}
+
+.lime {
+  background-color: lime;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.navy {
+  background-color: navy;
+}
+
+.SpringGreen {
+  background-color: SpringGreen;
 }
 
 .color {
-  height: 50px;
-  width: 50px;
-  border: 1px solid gray;
+  height: 45px;
+  width: 45px;
+  border: 2px solid gray;
   border-radius: 50%;
   float: left;
   margin: 5px;
@@ -74,13 +101,15 @@
 }
 
 .currentColor {
-  height: 100px;
-  width: 100px;
-  border: 2px solid gray;
+  height: 50px;
+  width: 50px;
+  border-radius: 20%;
+  border: 4px solid gray;
   float: left;
 }
 
 .text {
   height: 100px;
   float: left;
+  font: 14px monospace;
 }
