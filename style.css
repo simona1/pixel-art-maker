@@ -1,0 +1,86 @@
+
+.canvas {
+  border: 2px solid gray;
+  float: left;
+  clear: both;
+}
+
+.row {
+  clear: both;
+}
+
+.square {
+  border: 2px solid gray;
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.aqua {
+  background-color: aqua;
+}
+
+.color {
+  height: 50px;
+  width: 50px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  float: left;
+  margin: 5px;
+}
+
+.palette {
+  clear: both;
+}
+
+.currentColor {
+  height: 100px;
+  width: 100px;
+  border: 2px solid gray;
+  float: left;
+}
+
+.text {
+  height: 100px;
+  float: left;
+}
